@@ -1,6 +1,44 @@
-<<<<<<< HEAD
-<!-- Carlos -->
-=======
-<!-- Carlos-->
->>>>>>> services
-<p>Hello, I'm contact.html</p>
+<!-- your html code here -->
+
+<div class="container py-5 px-3"> <!--outer most div 1st layer-->
+  
+    <div class="container px-4"> <!--2nd layer div-->
+  
+      <h1 class="display-5 ">Contact</h1>
+      <p style="font-size: 23px;"> <!--fixed paragraph font size and fixed issue where text would wrap too ealry-->
+          
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod dui ac lorem interdum mattis. Phasellus finibus pharetra augue, non porta est interdum vel. Cras ut aliquet lorem.
+       </p>
+    </div>  <!--2nd layer div ends here-->
+  
+    <div class="container"> <!--2a layer div-->
+  
+      <!--decresed size between right-most edge of grey container and form input so it resemble example. Down 50% from px-4 -->
+      <div class="container mb-2 bg-light text-dark col-9 p-4 px-2 "> <!--start-->  <!--Decreased size between grey container vertically and sumbit button so it resembles example. Down 25% from p-5-->
+        <form class="justify-content-center"> <!--form-->
+          <div class="form-group row p-2">
+            <label for="emailInput" class="col-3 col-form-label text-end"><strong>Your E-mail</strong></label>
+            <div class="col">
+              <input type="email" class="form-control" id="emailInput" placeholder="your email">
+            </div>
+          </div>
+          <div class="form-group row p-2">
+            <label for="messageInput" class="col-3 col-form-label text-end"><strong>Your message</strong></label>
+            <div class="col">
+              <textarea class="form-control" id="messageInput" rows="5"
+                placeholder="Please enter your message..."></textarea>
+            </div>
+          </div>
+          <div class="gy-3">
+            <div class="form-group row text-end">
+              <div class="col offset-sm-2 gy-3 px-4">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>  
+        </form>
+      </div>
+    </div>   
+  </div> 
